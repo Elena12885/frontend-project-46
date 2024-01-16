@@ -6,3 +6,7 @@ publish: # отладка публикации пакета
 
 lint: # записк линтера
 	npx eslint .
+
+gendiff:
+	node bin/gendiff.js
+

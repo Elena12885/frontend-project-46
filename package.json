@@ -1,12 +1,15 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
   "description": "[![Actions Status](https://github.com/Elena12885/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Elena12885/frontend-project-46/actions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Elena12885",
   "license": "ISC",
   "type": "module",
   "dependencies": {
